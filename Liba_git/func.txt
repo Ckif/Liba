@@ -1,0 +1,51 @@
+                    Utils pack
+void mx_printchar(char c)                                               Done
+void mx_print_unicode(wchar_t c)                                        Skiped
+void mx_printstr(const char *s)                                         Done
+void mx_print_strarr(char **arr, const char *delim);                    Done
+void mx_printint(int n)                                                 Done
+double mx_pow(double n, unsigned int pow)                               Done
+int mx_sqrt(int x)                                                      Done
+char *mx_nbr_to_hex(unsigned long nbr)                                  Done
+unsigned long mx_hex_to_nbr(const char *hex)                            Done
+char *mx_itoa(int number)                                               Done
+void mx_foreach(const int *arr, int size, void (*f)(int))               Done
+nt mx_binary_search (char **arr, int size, const char *s, int *count)   Done
+int mx_bubble_sort(char **arr, int size)                                Done
+int mx_quicksort(char **arr, int left, int right)                       Skiped
+                    //String pack
+int mx_strlen(const char *s)                                            Done
+void mx_swap_char(char *s1, char *s2)                                   Done
+void mx_str_reverse(char *s)                                            Done
+void mx_strdel(char **str)                                              Done
+void mx_del_strarr(char ***arr)                                         Done
+int mx_get_char_index(const char *str, char c)                          Done
+char *mx_strdup(const char *str)                                        Done
+char *mx_strndup(const char *str, size_t n)                             Done
+char *mx_strcpy(char *dst, const char *src)                             Done
+char *mx_strncpy(char *dst, const char *src, int len)                   Done
+int mx_strcmp(const char *s1, const char *s2)                           Done
+char *mx_strcat(char *s1, const char *s2)                               Done
+char *mx_strstr(const char *s1, const char *s2)                         Done
+int mx_get_substr_index(const char *str, const char *sub)               Done
+int mx_count_substr(const char *str, const char *sub)                   Done
+int mx_count_words(const char *str, char delimiter)                     Done
+char *mx_strnew(const int size)                                         Done
+char *mx_strtrim(const char *str)                                       Done
+char *mx_del_extra_spaces(const char *str)                              Done
+char **mx_strsplit(char const *s, char c)                               Check
+char *mx_strjoin(char const *s1, char const *s2)                        Done
+char *mx_file_to_str(const char *filename)                              Done    Not Auditor     Need Fix
+intmx_read_line(char**lineptr, size_tbuf_size, chardelim, constintfd);  Skiped
+char mx_replace_substr(const char *str, const char *sub, const char *replace)   Done    Not Auditor     Need Fix
+
+
+
+
+
+
+
+bool mx_isspace(char c)                                                 Done
+int mx_strncmp(const char *s1, const char *s2, int n)                   Done
+char *mx_strchr(const char *str, int c)                                 Done
+
